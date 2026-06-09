@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration Form</title>
+</head>
+<body>
+    <h1> User Registration Form</h1> <hr>
+    <form> 
+        <label for = "fname">First Name:</label> 
+        <input type = "text" id = "fname" name = "fname">  
+        <label for = "lname">Last Name:</label> 
+        <input type = "text" id = "lname" name = "lname"> <br><br>
+        <label for = "DOB"> Date of Birth:</label> 
+        <input type = "date" id = "DOB" name = "DOB">
+        <label for = "Time"> Time of Birth:</label> 
+        <input type = "time" id = "Time" name = "Time"> <br> <br>
+        <label for = "email">Email:</label> 
+        <input type = "email" id = "email" name = "email"> <br><br>
+        <label for = "num"> Phone Number:</label> 
+        <select id = "num" name = "num">
+            <option value = "+Nepal"> +977 </option>
+            <option value = "+india"> +91 </option>
+            <option value = "+china"> +86 </option>
+            <option value = "+usa"> +1 </option>
+            <option value = "+uk"> +44 </option>
+            <option value = "+australia"> +61 </option>
+        </select>
+        <input type = "number" id="num" name = "num"> <br><br>
+        
+        <label for = "Age"> Age:</label> 
+        <input type = "number" id = "Age" name = "Age"> <br> <br>
+        <label for = "gender"> Gender:</label>
+        <input type = "radio" id = "gender" name = "gender" value = "male"> Male
+        <input type = "radio" id = "gender" name = "gender" value = "female"> Female
+        <input type = "radio" id = "gender" name = "gender" value = "other"> Other<br><br>
+        <label for = "country"> Country:</label> 
+        <select id = "country" name = "country">
+            <option value = "nepal"> Nepal </option>
+            <option value = "india"> India </option>
+            <option value = "china"> China </option>
+            <option value = "usa"> USA </option>
+            <option value = "uk"> UK </option>
+            <option value = "australia"> Australia </option>
+        </select><br><br>
+        <label for = "interest"> Area of Interest:</label> <br>
+        <input type = "checkbox" id = "interest" name = "interest" value = "dance"> Dance
+        <input type = "checkbox" id = "interest" name = "interest" value = "coding"> Coding
+        <input type = "checkbox" id = "interest" name = "interest" value = "sports"> Sports
+        <input type = "checkbox" id = "interest" name = "interest" value = "music"> Music 
+        <input type = "checkbox" id = "interest" name = "interest" value = "binge watching"> binge watching 
+        <input type = "checkbox" id = "interest" name = "interest" value = "swimmimg"> swimming <br><br>
+        <label for = "password"> Password:</label> 
+        <input type = "password" id = "password" name = "password" placeholder = "Enter your password"> <br><br>
+        <label for = "message"> Message: </label> <br>
+        <textarea id = "message" name = "message" rows = "4" cols = "50" placeholder = "Write something about yourself..."></textarea> <br><br>
+       <button> Submit</button>
+    </form>
+</body>
+</html>
